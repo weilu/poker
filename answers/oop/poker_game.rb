@@ -1,4 +1,4 @@
-require './hand'
+require File.expand_path(File.dirname(__FILE__) + '/hand')
 
 class PokerGame
   def self.play input = $stdin, output = $stdout
@@ -23,4 +23,3 @@ class PokerGame
   end
 end
 
-#PokerGame.play
