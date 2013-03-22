@@ -1,5 +1,5 @@
+require File.expand_path(File.dirname(__FILE__) + '/hand')
 require 'test/unit'
-require './hand'
 
 class AboutPoker < Test::Unit::TestCase
   def test_type_rank
