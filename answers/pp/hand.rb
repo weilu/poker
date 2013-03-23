@@ -1,6 +1,6 @@
 def type_rank cards
   counting_cards = Hash.new 0 # default value is 0
-  cards.map do |card|
+  cards.each do |card|
     counting_cards[card] += 1
   end
   counting_cards.values.max
