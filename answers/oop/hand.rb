@@ -28,8 +28,8 @@ class Hand
   private
 
   def card_rank card
-    rank_map = ('1'..'13').to_a
-    card == '1' ?  13 : rank_map.index(card)
+    rank_map = (1..13).to_a
+    card == 1 ?  13 : rank_map.index(card)
   end
 end
 
